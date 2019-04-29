@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import { PageHeader, Banner } from '../utils'
+import contactImg from '../images/background/contactBcg.jpeg'
 
 const ContactPage = () => (
   <Layout>
-    <div>
-      <h1>Contact Page</h1>
-    </div>
+    <PageHeader img={contactImg}>
+      <Banner title="Contact Us" subtitle={`Let's get in touch`}/>
+    </PageHeader>
   </Layout>
 )
 

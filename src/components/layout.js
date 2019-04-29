@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from '../components/globals/navbar/Navbar'
 import { createGlobalStyle } from 'styled-components'
+import Footer from "./globals/Footer"
 
 const Layout = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Navbar />
       { children }
+      <Footer />
     </React.Fragment>
   )
 }
