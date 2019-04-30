@@ -18,7 +18,7 @@ class Footer extends Component {
         <div className="icons">
           { this.state.icons.map(item => {
             return (
-              <a key={item.id} href={item.path} target="_blank"> {item.icon} </a>
+              <a key={item.id} href={item.path}> {item.icon} </a>
             )
           })}
         </div>
